@@ -90,8 +90,8 @@ public class NBody {
 			
 			// TODO: create double arrays xforces and yforces
 			// to hold forces on each body
-			double [] xForces = new double [5];
-			double [] yForces = new double [5];
+			double [] xForces = new double [bodies.length];
+			double [] yForces = new double [bodies.length];
 			
 			// TODO: loop over all bodies, calculate
 			// net forces and store in xforces and yforces
